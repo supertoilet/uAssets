@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Notifications
-! Last modified: Sun, 08 Oct 2023 11:37:36 +0000
+! Last modified: Sat, 14 Oct 2023 21:31:38 +0000
 ! Expires: 7 days (update frequency)
 
 ! *** easylist:template_header.txt ***
@@ -426,6 +426,7 @@ _revotas_push.
 ||contentsitesrv.com/js/push/$third-party
 ||css.xjsx.lol^$third-party
 ||digipush.io^$third-party
+||dpns-notifications.com^$third-party
 ||easyfeeed.com^$third-party
 ||evolok.net^$third-party
 ||farteniuson.com^$third-party
@@ -514,6 +515,7 @@ _revotas_push.
 ||webpushs.com^$third-party
 ||whitepush.biz^$third-party
 ||worldpush.co^$third-party
+||wps.relateddigital.com^$third-party
 ||wpush.biz^$third-party
 ||wpushsdk.com^$third-party
 ||xedo.me^$third-party
@@ -724,6 +726,7 @@ _revotas_push.
 tbsnews.net###___tbspushdiv
 redbull.com###bottom-notifications
 thehindu.com,thehindubusinessline.com###gsi_overlay
+deepl.com###headlessui-portal-root
 masrawy.com,yallakora.com###izooto-optin
 kizi.com###kizi-popover-dialog
 tdtube.net###main-fixed
@@ -829,6 +832,7 @@ map.baidu.com###downloadnativepopupUlink
 economictimes.indiatimes.com###float_app_ET
 kogan.com###footer-native-banner
 mercari.com###getTheAppFooter
+patreon.com###half-sheet-app-banner
 ventusky.com###header > .ii[href]
 aliexpress.com###header-float-banner
 web.quizknock.com###header_iosapp_link
@@ -1054,6 +1058,7 @@ speedtest.net##.result-area-ad
 rekhta.org##.rt_AppBtn
 ticketmaster.com##.sc-16ox40n-1.eDwNYV
 geekdashboard.com##.section--download
+fdownload.app##.section-app-fb
 cbn.com##.section-region-sidebar
 investing.com##.seeThisInPopup
 comicsvalley.com##.sgpb-popup-dialog-main-div-wrapper
@@ -1088,6 +1093,7 @@ reddit.com##.upsell_banner
 9gag.com##.use-app
 actionnetwork.com##.user-component__trial-button
 ventusky.com##.vj
+walmart.ca##.w_6wTF
 walmart.com##.w_XgwP
 gadgets360.com##.web_dialog
 bisnis.com##.wrapper__ads-download
@@ -1163,6 +1169,7 @@ reddit.com##.XPromoPopupRpl
 reddit.com##body:style(pointer-events:auto !important;)
 reddit.com##.XPromoInFeed
 amp.reddit.com##.AppSelectorModal__body
+reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
 reddit.com##+js(rc, scroll-disabled, body, stay)
 amp.reddit.com##.upsell_banner
 !#if env_mobile

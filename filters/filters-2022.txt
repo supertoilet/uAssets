@@ -1,6 +1,6 @@
 ! Title: uBlock₀ filters (2022)
 ! Description: Filters optimized for uBlock, to be used along EasyList
-! Last modified: Sun, 08 Oct 2023 12:14:28 +0000
+! Last modified: Sat, 14 Oct 2023 21:31:38 +0000
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! New filters from January 2022 to ->
@@ -59,7 +59,7 @@ ac-illust.com,photo-ac.com##.modal-backdrop
 ac-illust.com,photo-ac.com##body.modal-open *:style(filter: none!important;)
 
 ! PopAds-sites
-141jav.com,560pmovie.com,9xmovie.*,ahdafnews.blogspot.com,akuma.moe,androidadult.com,animestotais.xyz,animeyt.es,aotonline.org,askim-bg.com,avcrempie.com,belowporn.com,bobsvagene.club,coolcast2.com,countylocalnews.com,cuevana3.fan,cumception.com,curvaweb.com,daughtertraining.com,estrenosdoramas.net,everia.club,fapptime.com,filmesonlinexhd.biz,flizmovies.*,filmovitica.com,flyfaucet.com,gamesmountain.com,hdmoviesfair.*,hdmoviesflix.*,hesgoal.tv,hornylips.com,iwatchfriendsonline.net,javf.net,javleak.com,jiofiles.org,jp-films.com,jpop80ss3.blogspot.com,kantotinyo.com,legendei.net,lovesomecommunity.com,mangaboat.com,mangagenki.me,masaporn.xyz,megapornpics.com,meusanimes.net,mimaletamusical.blogspot.com,moredesi.com,moviesverse.*,movieswbb.com,nerdiess.com,novelssites.com,nsfwr34.com,nu6i-bg-net.com,ohjav.com,on9.stream,onepiece-mangaonline.com,onlyfullporn.video,originporn.com,pickteenz.com,pornoflux.com,porntn.com,portugues-fcr.blogspot.com,poseyoung.com,r18.best,ragnaru.net,rapelust.com,read-onepiece.net,rockdilla.com,rojadirectatvenvivo.com,serijefilmovi.com,sexcomics.me,sexdicted.com,sexgay18.com,sgpics.net,shahid4uu.*,shemale6.com,silverpic.com,socceron.name,streamcenter.pro,teamos.xyz,teen-wave.com,tgo-tv.co,thaihotmodels.com,theblueclit.com,thelastdisaster.vip,themoviesflix.*,themoviezflix.co.in,themoviesverse.co,thesexcloud.com,tightsexteens.com,tvseries.video,u4m.*,vidz7.com,w-hentai.com,wecast.to,witanime.best,xfantasy.su,xn--xvideos-espaol-1nb.com,yayanimes.net,youjax.com,ytstv.me,ytstvmovies.xyz##+js(aopw, _pop)
+141jav.com,560pmovie.com,9xmovie.*,ahdafnews.blogspot.com,akuma.moe,androidadult.com,animestotais.xyz,animeyt.es,aotonline.org,askim-bg.com,avcrempie.com,backfirstwo.com,belowporn.com,bobsvagene.club,coolcast2.com,countylocalnews.com,cuevana3.fan,cumception.com,curvaweb.com,daughtertraining.com,estrenosdoramas.net,everia.club,fapptime.com,filmesonlinexhd.biz,flizmovies.*,filmovitica.com,flyfaucet.com,gamesmountain.com,hdmoviesfair.*,hdmoviesflix.*,hesgoal.tv,hornylips.com,iwatchfriendsonline.net,javf.net,javleak.com,jiofiles.org,jp-films.com,jpop80ss3.blogspot.com,kantotinyo.com,legendei.net,lovesomecommunity.com,mangaboat.com,mangagenki.me,masaporn.xyz,megapornpics.com,meusanimes.net,mimaletamusical.blogspot.com,moredesi.com,moviesverse.*,movieswbb.com,nerdiess.com,novelssites.com,nsfwr34.com,nu6i-bg-net.com,ohjav.com,on9.stream,onepiece-mangaonline.com,onlyfullporn.video,originporn.com,pickteenz.com,pornoflux.com,porntn.com,portugues-fcr.blogspot.com,poseyoung.com,r18.best,ragnaru.net,rapelust.com,read-onepiece.net,rockdilla.com,rojadirectatvenvivo.com,serijefilmovi.com,sexcomics.me,sexdicted.com,sexgay18.com,sgpics.net,shahid4uu.*,shemale6.com,silverpic.com,socceron.name,streamcenter.pro,teamos.xyz,teen-wave.com,tgo-tv.co,thaihotmodels.com,theblueclit.com,thelastdisaster.vip,themoviesflix.*,themoviezflix.co.in,themoviesverse.co,thesexcloud.com,tightsexteens.com,tvseries.video,u4m.*,vidz7.com,w-hentai.com,wecast.to,witanime.best,xfantasy.su,xn--xvideos-espaol-1nb.com,yayanimes.net,youjax.com,ytstv.me,ytstvmovies.xyz##+js(aopw, _pop)
 ! In case aopw, _pop is not reliable
 everia.club##+js(rmnt, script, /\[\'push\'\]/)
 9xmovie.*,everia.club,mangagenki.me,nerdiess.com,tgo-tv.co,u4m.*##^script[data-cfasync]:has-text(h=decodeURIComponent)
@@ -74,7 +74,7 @@ everia.club##+js(rmnt, script, /\[\'push\'\]/)
 ! https://github.com/uBlockOrigin/uAssets/issues/19539 new variants
 ! https://github.com/uBlockOrigin/uAssets/issues/19848
 /^https:\/\/www\.(?!instagram)[a-z]{8,16}\.com\/(assets\/)?(scripts\/)?(api\/)?(?:[a-z]{2,10}[-.])?[a-z]{2,10}\.(?:min\.)?js$/$script,3p,match-case,domain=club|rapelust.com
-://www.*.com/*/scripts/*.min.css|$script,3p
+://www.*.com*/scripts/*.min.css|$script,3p
 ?_=e3&v=*&s=$script,3p,to=com
 ||pushtoast-a.akamaihd.net^$script,3p
 ||wgsxteihr.com^
@@ -760,9 +760,6 @@ faselhd.*##.alert-danger.alert
 mittelhessen.de##[class*="banner"]
 mittelhessen.de##[class*="Banner"]
 mittelhessen.de##.adSlot
-
-! https://github.com/uBlockOrigin/uAssets/issues/11691
-radiowereld.nl##+js(nosiif, adb)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/spykj6/getcopynet_adblock_detected_and_ads/
 getcopy.link##+js(aopr, lck)
@@ -2138,7 +2135,7 @@ androidapks.biz,androidsite.net,animeonlinefree.org,animesite.net,computercrack.
 mat6tube.com##+js(set, ads, undefined)
 
 ! multiup. us popups
-multiup.us##+js(nowoif)
+multiup.us##+js(aeld, , pop)
 multiup.us##+js(set, adblockcheck, false)
 ||unpkg.com/videojs-vast-vpaid@2.0.2/bin/videojs_5.vast.vpaid.min.js$script,domain=multiup.us
 ||multiup.us/cdn-cgi/trace$xhr,1p
@@ -3036,9 +3033,6 @@ romsgames.net,romsget.io##+js(nano-stb, submit, 5000)
 romsgames.net##.adlabel
 romspedia.com###ad1
 romspedia.com###ad2
-
-! https://github.com/uBlockOrigin/uAssets/issues/13581
-lrepacks.net##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13583
 2the.space##+js(aeld, scroll, modal)
@@ -4203,7 +4197,7 @@ coinscap.info,cryptowidgets.net,greenenez.com,insurancegold.in,webfreetools.net,
 cryptowidgets.net##+js(nostif, check, 1)
 cryptowidgets.net##+js(rmnt, script, adBlockDetected)
 cryptowidgets.net##^script[data-script='CallAdBlock-script']:has-text(adBlockDetected)
-coinscap.info,cryptowidgets.net,greenenez.com,insurancegold.in,webfreetools.net,wiki-topia.com##+js(nostif, detected)
+coinscap.info,cryptowidgets.net,greenenez.com,insurancegold.in,webfreetools.net,wiki-topia.com##+js(nostif, /bait|detected/)
 coinscap.info,cryptowidgets.net,greenenez.com,insurancegold.in,webfreetools.net,wiki-topia.com##+js(set, navigator.brave, undefined)
 
 ! moddroid.co => .com ads and popups
@@ -4721,8 +4715,17 @@ miuiflash.com,thecubexguide.com##[href^="https://bit.ly/"]
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=thecubexguide.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl$script,domain=thecubexguide.com
 @@||securepubads.g.doubleclick.net/gampad/ads$xhr,domain=thecubexguide.com
-djxmaza.in,miuiflash.com,thecubexguide.com###featuredimage:style(height:250px !important;left:-3000px !important;position:absolute !important)
 @@||adoto.net/dashboard/common/js/common.js$3p,script,domain=dev.miuiflash.com|djxmaza.in|thecubexguide.com
+@@*$ghide,domain=dev.miuiflash.com|djxmaza.in|thecubexguide.com
+*$image,redirect-rule=32x32.png:5,domain=djxmaza.in|thecubexguide.com|dev.miuiflash.com
+*$frame,redirect=noopframe,domain=djxmaza.in|dev.miuiflash.com|thecubexguide.com
+*$xhr,domain=djxmaza.in|dev.miuiflash.com|thecubexguide.com,redirect-rule=nooptext
+*$script,redirect-rule=noopjs,domain=djxmaza.in|thecubexguide.com|dev.miuiflash.com
+@@||devfiles.pages.dev/fonts/wp-content/plugins/best-ads-block-detector/main.js
+@@||googlesyndication.com^$script,xhr,domain=djxmaza.in|dev.miuiflash.com|thecubexguide.com
+@@||doubleclick.net^$script,xhr,domain=djxmaza.in|dev.miuiflash.com|thecubexguide.com
+dev.miuiflash.com,djxmaza.in,thecubexguide.com##+js(no-fetch-if, /adtrue\.com|eningspon\.com|freychang\.fun|orquideassp\.com|popunder/)
+dev.miuiflash.com,djxmaza.in,thecubexguide.com##+js(no-xhr-if, /a-mo\.net|adnxs\.com|prebid|creativecdn\.com|e-planning\.net|quantumdex\.io/)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15126
 kledgeb.blogspot.com##body > div[style="visibility: hidden;"]:style(visibility: unset !important)
@@ -5572,13 +5575,17 @@ chip.de##.Ad-hor-height:not([id])
 chip.de##td[style][colspan] > a.js-antivirusclick[href]
 chip.de##.DetailPage__Right-Column > .app_nexus_banners_common[id]
 chip.de###contentad-top-adsense-1
+chip.de#@#.FC__Container.min-height-250px-mu
+chip.de#@##R1C3
+chip.de##.FC__Container.min-height-250px-mu:style(max-height: 0.1px !important; height: 0.1px !important; min-height: 0px !important;)
+chip.de###R1C3[role="complementary"]
 ||nah-versorger.de^$3p
 ||stopundstart.de^$3p
 ||mein-organizer.de^$3p
 ||schneesommer.de^$3p
+/im\.chip\.de\/ii\/[0-9\/]{14,17}\/[a-zA-Z0-9]{2,9}[\-_][a-zA-Z0-9]{3,8}[\-_]([a-zA-Z0-9]{3,8}[\-_])?([a-zA-Z0-9]{3,8}[\-_])?([a-zA-Z0-9]{3,6}[\-_])?[a-zA-Z0-9]{16}\..*\?im=Resize.*&hash=[a-z0-9]{64}/$image,xhr,match-case,1p,domain=chip.de
+@@/im\.chip\.de\/ii\/[0-9\/]{14,17}\/.*[\-_][a-z0-9]{16}\.[a-zA-Z]{3,5}\?im=Resize.*&hash=[a-z0-9]{64}/$image,xhr,match-case,1p,domain=chip.de
 ||im.chip.de/ii/*AspectCrop*gravity*&hash=*esi:vars%3E*(randomString)%3C/esi:vars$image,xhr,1p
-/im\.chip\.de\/ii\/[0-9\/]{14,17}\/[a-zA-Z0-9]{4,9}\-[a-zA-Z0-9]{3,6}\-([a-zA-Z0-9]{3,6}\-)?([a-zA-Z0-9]{3,6}\-)?([a-zA-Z0-9]{3,6}\-)?[a-zA-Z0-9]{16}\..*\?im=Resize.*&hash=[a-z0-9]{60,}/$image,xhr,match-case,1p,domain=chip.de
-@@/im\.chip\.de\/ii\/[0-9\/]{14,17}\/.*(logo|launcher|player|tool|messenger|game|microsoft|windows).*&hash=[a-z0-9]{64}/$image,xhr,1p,domain=chip.de
 ||free.webcompanion.com/minime/de/index.php?partner=*&campaign=$popup,doc
 ||bdu.bitdriverupdater.com/*&utm_source=$popup,doc
 chip.de##^script:has-text(/pushAdTag|link_click|getAds/)

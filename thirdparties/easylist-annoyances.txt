@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Annoyances
-! Last modified: Sat, 07 Oct 2023 17:05:41 +0000
+! Last modified: Sat, 14 Oct 2023 21:31:38 +0000
 ! Expires: 7 days (update frequency)
 
 ! *** easylist:template_header.txt ***
@@ -1690,7 +1690,7 @@ computingunleashed.com##.email
 logicbuy.com##.email_signup
 booking.com##.emk_footer_update
 codecalamity.com##.entry-bar
-slickdeals.net,x2download.com,xranks.com,yt5s.com##.extension
+slickdeals.net,x2download.com,xranks.com,y2meta.com,yt5s.com##.extension
 qwant.com##.extension-item
 audio-joiner.com,convert.io,extract.me,online-voice-recorder.com,pdf.io,video-converter.com,webcamera.io##.extension-popup
 smhlmao.com##.f-page
@@ -1891,6 +1891,7 @@ dailywire.com###lts-banner
 libertynation.com###memberZoneFullSub
 texastribune.org###message-bar-id
 mikesmoneytalks.ca###mikes_reading
+amazon.com###mobile-immersive-player
 spiked-online.com###notice-banner
 proprofs.com###over-overlay
 amazon.com###percolate-ui-ilm_div
@@ -2327,6 +2328,7 @@ theguardian.com##[name="StickyBottomBanner"]
 tech-camp.in##a[data-gtm-tcb="TCB_CLICK_scrollbanner_default_exp_income"]
 tech-camp.in##a[data-gtm-tcb^="TCB_CLICK_buntyubanner_"]
 stuff.co.nz##app-billboard-overlay
+amazon.com##div[class^="DesktopFlexBannerLayout-module__playerContainer_"]
 semafor.com##div[class^="styles_floatingBanner_"]
 softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
@@ -2727,6 +2729,10 @@ abhiandroid.com##body,html:style(height: auto !important; overflow: auto !import
 ! revolver.news
 revolver.news##body:style(overflow: auto !important;)
 revolver.news##.blocker
+! ociservices.gov.in
+ociservices.gov.in###advisoryModadId1
+ociservices.gov.in##.modal-backdrop
+ociservices.gov.in##body,html:style(overflow: auto !important; position: initial !important;)
 ! 4399.com
 4399.com##+js(aopr, defaultbackgroundimg)
 ! onegreenplanet.org (Fix page, when attempting to print)
@@ -3159,6 +3165,7 @@ wuerth.it##.btn-scroll-top
 pagamentidigitali.it##.btn_iscriviti
 lillapois.com##.btt-button
 funweek.it##.c-header__top-bar
+ilbianconero.com##.c-syndication
 lastampa.it##.call-iscrizione
 sportitaliabet.it##.cg-top-arrow
 giocodigitale.game##.cloux-mailchimp
